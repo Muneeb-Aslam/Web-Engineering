@@ -1,0 +1,7 @@
+.food{
+    display: flex;
+    box-shadow: 1px snow;
+    border: 1px solid black;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
