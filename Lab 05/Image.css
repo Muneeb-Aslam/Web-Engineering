@@ -1,5 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.content {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.images img {
+    width: 60%;
+}
+.images{
+    display: none;
+}
+.left,
+.right {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    color: black;
+    width: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.left {
+    left: 13rem;
+}
+
+.right {
+    right: 13rem;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
 }
