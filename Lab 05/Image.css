@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: whitesmoke;
 }
 
 .content {
@@ -39,6 +40,7 @@
 
 .dot {
     cursor: pointer;
+    margin-top: 10px;
     height: 15px;
     width: 15px;
     margin: 0 2px;
