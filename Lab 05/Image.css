@@ -17,8 +17,8 @@
 .images{
     display: none;
 }
-.left,
-.right {
+#left,
+#right {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -26,21 +26,23 @@
     width: 2rem;
     font-size: 2rem;
     font-weight: bold;
+    border: none;
     border-radius: 50%;
     transform: translateY(-50%);
 }
 
-.left {
+#left {
     left: 13rem;
 }
 
-.right {
+#right {
     right: 13rem;
 }
-
+.dots{
+    margin-top: 20px;
+}
 .dot {
     cursor: pointer;
-    margin-top: 10px;
     height: 15px;
     width: 15px;
     margin: 0 2px;

@@ -10,9 +10,9 @@
 </head>
 <body>
     <div class="content">
-        <div class="btn">
-            <span class="left">&#8592;</span>
-            <span class="right">&#8594;</span>
+        <div class="buttons">
+            <button class="btn" id="left"  onclick="increment(-1)">&#8592;</button>
+            <button class="btn" id="right" onclick="increment(1)">&#8594;</button>
         </div>
         <ul>
             <li class="images"><img src="Images//pic1.jpg" alt=""></li>
@@ -21,10 +21,10 @@
             <li class="images"><img src="Images//pic4.jpg" alt=""></li>
         </ul>
         <div class="dots">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+            <span class="dot" onclick="dotslide(0)"></span>
+            <span class="dot" onclick="dotslide(1)"></span>
+            <span class="dot" onclick="dotslide(2)"></span>
+            <span class="dot" onclick="dotslide(3)"></span>
         </div>
     </div>
     <script src="Image.js"></script>
